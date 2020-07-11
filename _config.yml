@@ -1,0 +1,29 @@
+title: Feedback from an Business Central Professional
+markdown: kramdown
+url: ""
+baseurl: "/geekyll-starter-blog"
+
+# for atom feed
+author:
+  name: Christophe Courvoisier
+  email: Christophe.Courvoisiere@gmail.com
+  image: "https://media-exp1.licdn.com/dms/image/C4D03AQF3LzDySO1RcQ/profile-displayphoto-shrink_200_200/0?e=1599696000&v=beta&t=_zjrqI8t4xm13yl2M3NGcx3ih4QaLqUczNRU_5aljWg"
+  bio: Former C# develop, I worked on BC since 2008.
+  github: "titofffffff"
+
+plugins:
+  - jemoji
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "post"
+  - scope:
+      path: "_posts"
+    values:
+      layout: "post"
+      permalink: /posts/:categories/:year/:month/:day/:title/
