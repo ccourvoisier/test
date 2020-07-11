@@ -27,3 +27,5 @@ defaults:
     values:
       layout: "post"
       permalink: /posts/:categories/:year/:month/:day/:title/
+
+theme: jekyll-theme-minimal
